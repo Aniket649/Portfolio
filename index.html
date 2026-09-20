@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expo Registration | Landing Page</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <!-- NAV -->
+    <header class="nav">
+        <div class="container">
+            <div class="nav-inner">
+                <div class="brand">
+                    <img src="./sigma.png" alt="Sigma Drama Logo" width="40" height="40"/>
+                    <div>
+                        SIGMA THEATER<br />
+                        <span style="color:var(--muted); font-weight:500; font-size:12px;">Sigma Drama & Theater Movies
+                            Festival 2026</span>
+                    </div>
+                </div>
+
+                <nav class="nav-links" aria-label="Main navigation">
+                    <a href="#overview">Overview</a>
+                    <a href="#highlights">Highlights</a>
+                    <a href="#location">Location</a>
+                    <a href="#organizer">Organizer</a>
+                    <a href="#register" class="btn btn-primary" style="padding:10px 14px;">Register Now</a>
+                </nav>
+
+                <button class="btn hamburger" onclick="scrollToId('register')">Register</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <main class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-card hero-left">
+                    <div class="badge">Movies Studio</div>
+                    <h1 class="hero-title">VENOM</h1>
+                    <p class="hero-sub">
+                        Watch powerful stage performances and theater-inspired movies,
+                        meet artists, and experience storytelling like never before.
+                    </p>
+
+                    <div class="hero-cta">
+                        <button class="btn btn-primary" onclick="scrollToId('register')">Register Now</button>
+                        <button class="btn" onclick="scrollToId('overview')">View Details</button>
+                    </div>
+
+                    <div class="meta-row">
+                        <div class="pill"> Venue: City Auditorium / Sigma Theater Arena</div>
+                        <div class="pill">Date: 20–21 Feb 2026</div>
+                        <div class="pill"> Time: 10:00 AM – 9:00 PM</div>
+                    </div>
+                </div>
+
+                <div class="hero-card hero-right">
+                    <div class="stat">
+                        <strong>OTP Verification</strong>
+                        <p>Mandatory verification before final submission.</p>
+                    </div>
+                    <div class="stat">
+                        <strong>Unique Registration. ID</strong>
+                        <p>Auto-generated and shown after successful registration.</p>
+                    </div>
+                    <div class="stat">
+                        <strong>Admin Panel</strong>
+                        <p>Secure login + view/Ticket.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- EVENT OVERVIEW -->
+    <section id="overview">
+        <div class="container">
+            <div class="section-head">
+                <h2>1) Event Overview</h2>
+                <div class="hint">Static content section</div>
+            </div>
+
+            <div class="grid-2">
+                <div class="card">
+                    <h3>About the Sigma Drama Festival</h3>
+                    <p>
+                        Sigma Drama & Theater Movies Festival is a two-day cultural event celebrating stage
+                        performances, theater cinema, and storytelling art. Experience live drama shows, short theater
+                        films, panel discussions, and behind-the-scenes sessions with actors and directors.
+                    </p>
+                    <p>
+                        You can add details like: event purpose, target audience, benefits, and why users should attend.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Why Register?</h3>
+                    <p> Free entry pass</p>
+                    <p> Priority access and updates</p>
+                    <p> On-spot support and guidance</p>
+                    <p> Personalized recommendations (optional)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- KEY HIGHLIGHTS -->
+    <section id="highlights">
+        <div class="container">
+            <div class="section-head">
+                <h2>2) Key Highlights</h2>
+                <div class="hint">Ticket cards</div>
+            </div>
+
+            <div class="grid-3">
+                <div class="card">
+            
+                    <h3>Live Stage Performances</h3>
+                    <p>Powerful drama shows and classical acts</p>
+                </div>
+                <div class="card">
+                    
+                    <h3>Theater Movie Screenings</h3>
+                    <p>Short films + full-length theater cinema</p>
+                </div>
+                <div class="card">
+                    
+                    <h3>Workshops & Masterclasses</h3>
+                    <p>Acting, writing, direction, expressions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LOCATION & SCHEDULE -->
+    <section id="location">
+        <div class="container">
+            <div class="section-head">
+                <h2>3) Location & Schedule</h2>
+                <div class="hint">Static details + map placeholder</div>
+            </div>
+
+            <div class="grid-2">
+                <div class="card">
+                    <h3>Venue</h3>
+                    <p><strong>Location:</strong> Sigma Theater Arena / City Cultural Auditorium)</p>
+                    <p><strong>Dates:</strong> 20–21 Feb 2026 (Example)</p>
+                    <p><strong>Time:</strong> 10:00 AM – 7:00 PM</p>
+                    <p class="note"> Pune / Mumbai / Your City</p>
+                </div>
+
+                <div class="card">
+                    <h3>Schedule</h3>
+                    <p>10:00 AM – Entry & Registration
+                       11:00 AM – Opening Ceremony
+                       12:00 PM – Drama Performances (Part 1)
+                       04:00 PM – Theater Movies Screening
+                       07:00 PM – Celebrity Talk / Panel Discussion</p>
+                    <p>Day 2: Expo Visit + Offers + Closing
+                        10:00 AM – Workshops (Acting, Scriptwriting)
+                        02:00 PM – Drama Performances (Finals)
+                        05:00 PM – Movie Screening (Special Show)
+                        08:00 PM – Awards + Closing Ceremony
+                    </p>
+                    <p class="note">Tip: Keep schedule simple and easy to scan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ORGANIZER / PARTNERS -->
+    <section id="organizer">
+        <div class="container">
+            <div class="section-head">
+                <h2>4) Organizer / Partner Information</h2>
+                <div class="hint">Sigma Drama Foundation</div>
+            </div>
+
+            <div class="grid-2">
+                <div class="card">
+                    <h3>Organizer</h3>
+                    <p>
+                        A cultural organization promoting theater, storytelling, and 
+                        film art through events, workshops, and stage programs.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Partners</h3>
+                    <p>Ticket Partner: SigmaPass</p>
+                    <p>Media Partner: Sigma Entertainment</p>
+                    <p>Sponsor: Sigma Group / Local Sponsors</p>
+                    <p class="note">Venue Partner: City Auditorium</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- REGISTRATION -->
+    <section id="register">
+        <div class="container">
+            <div class="section-head">
+                <h2>Register Now</h2>
+                <div class="hint">OTP verification required</div>
+            </div>
+
+            <div class="reg-wrap">
+                <!-- Form -->
+                <div class="card">
+                    <h3>Registration Form</h3>
+
+                    <form id="regForm" onsubmit="return false;">
+                        <label>Full Name *</label>
+                        <input id="fullName" type="text" placeholder="Enter full name" required />
+
+                        <div class="row">
+                            <div>
+                                <label>Mobile Number *</label>
+                                <input id="mobile" type="tel" placeholder="10-digit mobile" inputmode="numeric"
+                                    required />
+                            </div>
+                            <div>
+                                <label>Email ID (optional)</label>
+                                <input id="email" type="email" placeholder="name@example.com" />
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div>
+                                <label>City *</label>
+                                <input id="city" type="text" placeholder="Enter city" required />
+                            </div>
+                            <div>
+                                <label>Preference</label>
+                                <select id="pref">
+                                    <option value="General">Live Drama</option>
+                                    <option value="Residential">Theater Movies</option>
+                                    <option value="Commercial">Workshops</option>
+                                    <option value="Investment">Meet & Greet</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-actions">
+                            <button class="btn btn-primary" type="button" onclick="sendOtp()">Send OTP</button>
+                            <button class="btn" type="button" onclick="resetForm()">Reset</button>
+                        </div>
+
+                        <div class="note">
+                            Demo mode: OTP will be shown in alert. For real SMS OTP, connect backend + SMS provider.
+                        </div>
+
+                        <div id="errBox" class="error"></div>
+                        <div id="okBox" class="success"></div>
+                    </form>
+                </div>
+
+                <!-- OTP + Submit -->
+                <div class="card">
+                    <h3>OTP Verification</h3>
+                    <p class="hint" style="margin:8px 0 12px;">
+                        Enter OTP sent to your mobile number.
+                    </p>
+
+                    <label>OTP *</label>
+                    <input id="otp" type="text" placeholder="Enter OTP" inputmode="numeric" />
+
+                    <div class="form-actions">
+                        <button class="btn btn-primary" type="button" onclick="verifyOtp()">Verify OTP</button>
+                        <button class="btn" type="button" onclick="resendOtp()">Resend OTP</button>
+                    </div>
+
+                    <hr style="border-color: rgba(255,255,255,.10); margin:16px 0;" />
+
+                    <button class="btn btn-primary" style="width:100%;" type="button" onclick="finalSubmit()">
+                        Complete Registration
+                    </button>
+
+                    <p class="note">
+                        Registration completes only after OTP is verified.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div style="display:flex; gap:12px; justify-content:space-between; flex-wrap:wrap;">
+                <div>© 2026 Sigma Drama Registration • All rights reserved</div>
+                <div>Contact: +91 90000 00000 • Kharadaniket@example.com</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SUCCESS MODAL -->
+    <div class="modal" id="modal">
+        <div class="modal-card">
+            <div class="modal-top">
+                <div>
+                    <h2 style="margin:0;">Registration Successful</h2>
+                    <div class="hint" style="margin-top:6px;">Your registration is confirmed.</div>
+                </div>
+                <button class="close" onclick="closeModal()">✕</button>
+            </div>
+
+            <div class="card" style="background: rgba(255,255,255,.04); border-color: rgba(255,255,255,.12);">
+                <div style="display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap;">
+                    <div>
+                        <div class="hint">Your Registration ID</div>
+                        <div class="regid" id="regIdText">SIGMA-DRAMA-000000</div>
+                    </div>
+                    <button class="btn" onclick="copyRegId()">Copy</button>
+                </div>
+
+                <p class="note" style="margin-top:12px;">
+                   This ID will be required at entry gate and can be sent via SMS.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
